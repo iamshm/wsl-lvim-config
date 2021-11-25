@@ -39,8 +39,10 @@ Install rust using cargo from this link
 Disable windows PATH on wsl [https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl
 
 Install latest neovim binary 
-[bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils/installer/install-neovim-from-release)
-]
+
+```
+bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils/installer/install-neovim-from-release)
+```
 
 Install Lunarvim from here [https://www.lunarvim.org/01-installing.html#prerequisites]
 
