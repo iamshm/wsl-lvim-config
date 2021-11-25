@@ -1,5 +1,12 @@
-# wsl-lvim-config
+### Note 
+
+1. This setup is Javascript(React) development specific.
+2. Always create projects in ubuntu file-system( /home/{username}/ ) and not in windows, if your project is at C:, D:, E:, F: then this may work very slow for you
+3. If you are on ubuntu then you can avoid wsl config and VcXsrc configuration
+
+# WSL-lvim-config
 Configuration of wsl and neovim[Lunarvim] for React Development
+
 
 ### wsl-ubuntu
 &nbsp;Pre-requisites : 
@@ -9,6 +16,7 @@ Configuration of wsl and neovim[Lunarvim] for React Development
 &nbsp;&nbsp;b. Install Ubuntu from MS Store
 
 &nbsp;&nbsp; [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/install) for anyone who needs help with installing wsl
+
 
 ### Steps
 
