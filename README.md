@@ -45,3 +45,25 @@ Install Lunarvim from here [https://www.lunarvim.org/01-installing.html#prerequi
 For React, Typescript is Required 
 
 ```npm install -g typescript-language-server typescript eslint_d prettier```
+
+To get emmet support for jsx in js files
+
+go to this file
+``` /home/{user}/.local/share/lunarvim/site/pack/packer/start/emmet-vim/autoload/emmet.vim ```
+
+and add near the jsx block having something like below
+
+```
+\    'javascript': {
+\        'extends': 'html',
+\        'attribute_name': {'class': 'className', 'for': 'htmlFor'},
+\        'empty_element_suffix': ' />',
+\    },
+```
+
+to get jsx snippets in js files, add react snippets to js snippet file (friendly snippets)
+
+
+
+
+
