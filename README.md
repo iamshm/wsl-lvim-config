@@ -1,5 +1,5 @@
 # wsl-lvim-config
-Configuration for wsl and Lunarvim
+Configuration of wsl and neovim[Lunarvim] for React Development
 
 ### wsl-ubuntu
 &nbsp;Pre-requisites : 
@@ -68,7 +68,9 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils
 
 12. To get jsx snippets in js files, add react snippets to js snippet file (friendly snippets)
 
-13. To get auto imports of custom Components through LSP, you need to have a jsconfig.json file in your project. I have provided my jsconfig. To get jsonfig everytime easily I have created a alias (in .zshrc) and you just need to type jsconfig in your project directory and you are good to go.
+13. Replace [this](config.lua) with your config.lua. You may get some errors, avoid them. Once they are installed, restart lvim.
+
+14. To get auto imports of custom Components through LSP, you need to have a jsconfig.json file in your project. I have provided my jsconfig. To get jsonfig everytime easily I have created a alias (in .zshrc) and you just need to type jsconfig in your project directory and you are good to go.
 
 ##### Tips 
 If you are getting any path related errors like nvm not found, lvim not found, etc. Kindly update your path by refering to [.zshrc](.zshrc)
