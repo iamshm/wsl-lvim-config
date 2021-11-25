@@ -10,16 +10,15 @@ b. Install Ubuntu from MS Store
 
 2. Install zsh
 
-```sudo apt-get install zsh ```
+&nbsp;&nbsp;```sudo apt-get install zsh ```
 
-set zsh as default shell 
-
-```chsh -s $(which zsh)```
+&nbsp;&nbsp;set zsh as default shell  &nbsp;```chsh -s $(which zsh)```
 
 3. Install xcip ``` sudo apt-get install xclip ```
 
-Configure VcXserv [from here](https://www.youtube.com/watch?v=_MgrjgQqDcE&t=1s)
-It's description has some configs
+&nbsp;&nbsp;Configure VcXserv [from here](https://www.youtube.com/watch?v=_MgrjgQqDcE&t=1s)
+
+&nbsp;&nbsp;It's description has some configs
 
 4. Install build tools
 
@@ -29,14 +28,13 @@ sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake c
 
 5. Install node using nvm from this [link](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-To install node and npm 
+&nbsp;&nbsp;To install node and npm 
 
 ```
 nvm install --lts
 ```
 
-6. Install rust using cargo from this link 
-  1.[https://doc.rust-lang.org/cargo/getting-started/installation.html]
+6. Install rust using cargo from this [link](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 7. Disable windows PATH on wsl from [here](https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl)
 
@@ -56,7 +54,7 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils
 
 ``` /home/{user}/.local/share/lunarvim/site/pack/packer/start/emmet-vim/autoload/emmet.vim ```
 
-and add near the jsx block having something like below
+&nbsp;&nbsp;and add near the jsx block having something like below
 
 ```
 \    'javascript': {
@@ -70,4 +68,5 @@ and add near the jsx block having something like below
 
 13. To get auto imports of custom Components through LSP, you need to have a jsconfig.json file in your project. I have provided my jsconfig. To get jsonfig everytime easily I have created a alias (in .zshrc) and you just need to type jsconfig in your project directory and you are good to go.
 
-            
+##### Tips 
+If you are getting any path related errors like nvm not found, lvim not found, etc. Kindly update your path by refering to [.zshrc](.zshrc)
