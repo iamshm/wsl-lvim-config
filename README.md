@@ -62,7 +62,9 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils
 
 10. For React, Typescript is Required 
 
-```npm install -g typescript-language-server typescript eslint_d prettier```
+```
+npm install -g typescript-language-server typescript eslint_d prettier
+```
 
 11. To get emmet support for jsx in js files go to this file
 
