@@ -1,6 +1,6 @@
 ### Note 
 
-1. This setup is Javascript(React) development specific.
+1. This is a setup for Javascript(React) development specific, but can be configured for different languages
 2. Always create projects in ubuntu file-system( /home/{username}/ ) and not in windows, if your project is at C:, D:, E:, F: then this may work very slow for you
 3. If you are on ubuntu then you can avoid wsl config and VcXsrc configuration
 
