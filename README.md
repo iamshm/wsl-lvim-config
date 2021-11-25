@@ -1,10 +1,12 @@
 # wsl-lvim-config
-Config for wsl and Lunarvim
+Configuration for wsl and Lunarvim
 
 ### wsl-ubuntu
-Pre-requisites : 
-a. Install wsl
-b. Install Ubuntu from MS Store
+&nbsp;Pre-requisites : 
+
+&nbsp;&nbsp; a. Install wsl
+
+&nbsp;&nbsp;b. Install Ubuntu from MS Store
 
 1. Install a nerd font
 
@@ -12,9 +14,9 @@ b. Install Ubuntu from MS Store
 
 &nbsp;&nbsp;```sudo apt-get install zsh ```
 
-&nbsp;&nbsp;set zsh as default shell  &nbsp;```chsh -s $(which zsh)```
+&nbsp;&nbsp;set zsh as default shell  &nbsp; ```chsh -s $(which zsh)```
 
-3. Install xcip ``` sudo apt-get install xclip ```
+3. Install xcip &nbsp; ``` sudo apt-get install xclip ```
 
 &nbsp;&nbsp;Configure VcXserv [from here](https://www.youtube.com/watch?v=_MgrjgQqDcE&t=1s)
 
@@ -70,3 +72,9 @@ bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils
 
 ##### Tips 
 If you are getting any path related errors like nvm not found, lvim not found, etc. Kindly update your path by refering to [.zshrc](.zshrc)
+
+For any help regarding LunarVim help, you can refer to the [docs](https://www.lunarvim.org/01-installing.html#prerequisites)
+
+Also you can join their [discord](https://discord.com/invite/Xb9B4Ny) server to get help.
+
+
