@@ -66,7 +66,6 @@ and add near the jsx block having something like below
 
 12. To get jsx snippets in js files, add react snippets to js snippet file (friendly snippets)
 
-
-
+13. To get auto imports of custom Components through LSP, you need to have a jsconfig.json file in your project. I have provided my jsconfig. To get jsonfig everytime easily I have created a alias (in .zshrc) and you just need to type jsconfig in your project directory and you are good to go.
 
 
