@@ -10,6 +10,8 @@ Configuration of wsl and neovim[Lunarvim] for React Development
 
 &nbsp;&nbsp; [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/install) for anyone who needs help with installing wsl
 
+### Steps
+
 1. Install a nerd font
 
 2. Install zsh
