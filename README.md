@@ -8,7 +8,7 @@ Configuration of wsl and neovim[Lunarvim] for React Development
 
 &nbsp;&nbsp;b. Install Ubuntu from MS Store
 
-&nbsp;&nbsp; [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/install)
+&nbsp;&nbsp; [MS Docs](https://docs.microsoft.com/en-us/windows/wsl/install) for anyone who needs help with installing wsl
 
 1. Install a nerd font
 
