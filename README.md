@@ -15,7 +15,8 @@ set zsh as default shell
 
 Install xcip ``` sudo apt-get install xclip ```
 
-Configure VcXserv [https://www.youtube.com/watch?v=_MgrjgQqDcE&t=1s] It's description has some config 
+Configure VcXserv [https://www.youtube.com/watch?v=_MgrjgQqDcE&t=1s] 
+It's description has some config 
 
 Install build tools
 
@@ -37,7 +38,8 @@ Install rust using cargo from this link
 
 Disable windows PATH on wsl [https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl
 
-Install latest neovim binary [bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils/installer/install-neovim-from-release)
+Install latest neovim binary 
+[bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/rolling/utils/installer/install-neovim-from-release)
 ]
 
 Install Lunarvim from here [https://www.lunarvim.org/01-installing.html#prerequisites]
