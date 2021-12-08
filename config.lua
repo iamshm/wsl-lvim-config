@@ -4,12 +4,11 @@ lvim.builtin.project.detection_methods = { "pattern" }
 lvim.log.level = "warn"
 lvim.format_on_save = true
 
-lvim.transparent_window=true
-vim.g.gruvbox_material_pallete = "original"
-vim.g.gruvbox_material_ui_contrast = "high"
+lvim.transparent_window = true
+
 -- Additional Plugins
 lvim.plugins = {
-    {
+  {
     "norcalli/nvim-colorizer.lua",
     config = function()
       require("colorizer").setup({ "*" }, {
@@ -22,7 +21,7 @@ lvim.plugins = {
         css_fn = true, -- Enable all CSS *functions*: rgb_fn, hsl_fn
       })
     end,
-},
+  },
   {'mattn/emmet-vim'},
   {"sainnhe/sonokai"},
   {"projekt0n/github-nvim-theme"},
@@ -35,13 +34,12 @@ lvim.plugins = {
       require("nvim-ts-autotag").setup()
     end,
   },{
-  "karb94/neoscroll.nvim",
-  event = "WinScrolled",
-  config = function()
-  require('neoscroll').setup({
-        -- All these keys will be mapped to their corresponding default scrolling animation
+    "karb94/neoscroll.nvim",
+    event = "WinScrolled",
+    config = function()
+      require('neoscroll').setup({
         mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
-        '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
+          '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
         hide_cursor = true,          -- Hide cursor while scrolling
         stop_eof = true,             -- Stop at <EOF> when scrolling downwards
         use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
@@ -50,9 +48,9 @@ lvim.plugins = {
         easing_function = nil,        -- Default easing function
         pre_hook = nil,              -- Function to run before the scrolling animation starts
         post_hook = nil,              -- Function to run after the scrolling animation ends
-        })
-  end
-},
+      })
+    end
+  },
 }
 
 vim.g.user_emmet_leader_key = "<C-z>"
@@ -79,7 +77,7 @@ lvim.colorscheme = "gruvbox-material"
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup({{exe = "prettier", filetypes = {"typescript" , "typescriptreact","javascript","javascriptreact" ,"html" ,"css" , "json" , "markdown"} }})
 local linters = require "lvim.lsp.null-ls.linters"
-linters.setup({{exe = "eslint_d", filetypes = { "typescript" , "typescriptreact","javascript","javascriptreact" } }})
+linters.setup({{exe = "eslint", filetypes = { "typescript" , "typescriptreact","javascript","javascriptreact" } }})
 
 
 local nls_ok, nls = pcall(require, "null-ls")
@@ -109,7 +107,6 @@ lvim.builtin.treesitter.ensure_installed = {
   "typescript",
   "css",
   "rust",
-  "java",
   "yaml",
 }
 
